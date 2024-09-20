@@ -13,7 +13,7 @@ body {
     line-height: 1;
     font-size: 1rem;
     /* background-color: rgb(203, 231, 255); */
-    background: url(../images/catalog/111.jpeg) no-repeat center/cover;
+    background: url(../images/catalog/111.jpeg) no-repeat top/cover;
 }
 
 .wrapper{
@@ -70,10 +70,11 @@ a:hover {
 
 .nav__link,
 .nav-dropdown__link,
-.subnav-dropdown_link{
+.subnav-dropdown__link{
     display: block;
     padding: 2px;
     white-space: nowrap;
+    color: white;
 }
 
 .nav-dropdown,
@@ -92,16 +93,102 @@ a:hover {
    
 }
 
+/*INDEX*/
+
 .info{
+    width: 100%;
     margin: 20px;
     padding: 10px 20px;
-    background-color: rgba(240, 248, 255, 0.151);
+    background-color: rgba(240, 248, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info__item{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+
+.info__head{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse
+}
+
+.info>p{
+    width: 33%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.info__head--span{
+    font-weight: 700;
+}
+
+.info__item--wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
 
 .info__imege{
+    margin: 20px 0;
+    padding: 0 9px 0 0;
+    width: 30%;
     display: flex;
-    margin: 20px auto;
-    width: 95%;
-    height: 650px;    
+    flex-direction:row-reverse;
 }
 
+/*CONTACT*/
+
+.group{
+    width: 25%;
+    margin: 90px auto;
+    
+}
+
+.group__item{
+    padding: 10px 10%;
+    margin: 20px auto;
+    background-color: rgb(240, 248, 255, 0.151);
+}
+
+.group__item--p{
+    font-weight: 700;
+}
+
+/*REGIST*/
+
+legend{
+    display: flex;
+    margin: 0 auto 20px;
+}
+
+.regist{
+    margin: 1% auto;
+    width: 30%;
+    background-color: rgb(240, 248, 255, 0.151);
+}
+
+.regist__item{
+    padding: 5px 10px;
+}
+
+.regist__button{
+    margin: 1% auto;
+    width: 30%;
+}
+
+.btn {
+    margin: 6px 0;
+    width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(240, 248, 255, 0.151);
+}
+
+input{
+    width: 100%;
+}
