@@ -32,7 +32,178 @@
                 </li>
             </ul>
         </header>
-        
+        <form class="form--filters" action="https://tests.fomenko.top/echo/index.php" method="GET">
+            <fieldset class="search">
+                <div class="search__item">
+                    <p>Оберіть місто</p>
+                    <select name="select--city">
+                        <option value="Місто">Київ</option>
+                        <option value="Місто">Дніпро</option>
+                        <option value="Місто">Львів</option>
+                        <option value="Місто">Харків</option>
+                        <option value="Місто">Житомир</option>
+                        <option value="Місто">Одеса</option>
+                        <option value="Місто">Кривий-Ріг</option>
+                        <option value="Місто">Бориспіль</option>
+                        <option value="Місто">Ужгород</option>
+                        <option value="Місто">Миколаїв</option>
+                        <option value="Місто">Запоріжжя</option>
+                        <option value="Місто">Вінниця</option>
+                    </select>
+                </div>
+                <div class="search__item">
+                    <p>Рік випуску</p>
+                    <div class="search__lable">
+                        <label>Від</label>
+                        <input name="year" type="number" minlength="1980" maxlength="2024" value="2008">
+                        <label>До</label>
+                        <input name="year" type="number" minlength="1980" maxlength="2024" value="2024">
+                    </div>
+                </div>
+                <div class="search__item">
+                    <p>Марка</p>
+                    <select name="select--modle">
+                        <option value="Місто">BMW</option>
+                        <option value="Місто">Honda</option>
+                        <option value="Місто">Volkswagen</option>
+                        <option value="Місто">Ford</option>
+                        <option value="Місто">Hyundai</option>
+                        <option value="Місто">Audi</option>
+                        <option value="Місто">Porsche</option>
+                        <option value="Місто">Nissan</option>
+                        <option value="Місто">Mercedes-Benz</option>
+                        <option value="Місто">Toyota</option>
+                        <option value="Місто">Kia</option>
+                        <option value="Місто">Chevrolet</option>
+                    </select>
+                </div>
+                <div class="search__item">
+                    <p>Вартість</p>
+                    <div class="search__lable">
+                        <label>Від</label>
+                        <input name="вартість від" type="number">
+                        <label>До</label>
+                        <input name="до" type="number">
+                    </div>
+                </div>
+                <div class="search__item--comfort">
+                    <p>Комфорт</p>
+                    <div class="search__item--row">
+                        <div class="search__item--checkbox">
+                            <label>Підігрів бокових дзеркал</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Кожаний салон</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Підігрів руля</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Електро підйомники скла</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Сигналізація</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Підігрів сидінь</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Вентиляція сидінь</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Клімат контроль</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Люк</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Кондиціонер</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+                <div class="search__item--state">                                     
+                    <p>Комфорт</p>
+                    <div class="search__item--row">                            
+                        <div class="search__item--checkbox">                   
+                            <label>Новий</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Не був у дтп</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Легке ушкодження</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Не фарбована</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Не растоможена</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Гаражне зберыгання</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                        <div class="search__item--checkbox">
+                            <label>Тотал</label>
+                            <input name="checkbox" type="checkbox">
+                        </div>
+                    </div>
+                </div>
+                <div class="search__item">
+                    <p>Колір</p>
+                    <div class="search__lable">
+                        <input name="вартість від" type="color">
+                    </div>
+                </div>
+                <div class="search__item">
+                    <p>Тип палива</p>
+                    <select name="select--modle">
+                        <option value="Місто">Бензин</option>
+                        <option value="Місто">Дизель</option>
+                    </select>
+                </div>
+                <div class="search__item">
+                    <p>КПП</p>
+                    <select name="select--modle">
+                        <option value="Місто">Механіка</option>
+                        <option value="Місто">Автомат</option>
+                        <option value="Місто">Робот</option>
+                    </select>
+                </div>
+                <div class="search__item">
+                    <p>Пробіг</p>
+                    <div class="search__lable">
+                        <label>Від</label>
+                        <input name="пробіг від" type="number">
+                        <label>До</label>
+                        <input name="до" type="number">
+                    </div>
+                </div>
+            </fieldset> 
+            <fieldset class="search__button">
+                <div class="search__item--button">
+                    <button class="btn" type="submit">Пошук</button>
+                </div>
+                <div class="search__item--button">
+                    <button class="btn" type="reset">Скинути зміни</button>
+                </div>
+            </fieldset>   
+        </form>
     </div>
 </body>
 </html>

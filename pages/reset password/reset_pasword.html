@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../../css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>CARAVAN of CARS</h1>
+        <header class="header">
+            <ul class="nav">
+                <li class="nav__item"><a href="#" class="nav__link">МЕНЮ</a>
+                    <ul class="nav-dropdown">
+                        <li class="nav-dropdown__item"><a href="#" class="nav-dropdown__link">Вхід</a>
+                            <ul class="subnav-dropdown">
+                                <li class="subnav-dropdown__item"><a href="../login.html" class="subnav-dropdown__link">Вхід</a></li>
+                                <li class="subnav-dropdown__item"><a href="../regist.html" class="subnav-dropdown__link">Реєстрація</a></li>
+                            </ul> 
+                        </li>
+                        <li class="nav-dropdown__item"><a href="" class="nav-dropdown__link">Каталог</a>
+                            <ul class="subnav-dropdown">
+                                <li class="subnav-dropdown__item"><a href="../new.html" class="subnav-dropdown__link">Нові</a></li>
+                                <li class="subnav-dropdown__item"><a href="../used.html" class="subnav-dropdown__link">Вживані</a></li>
+                            </ul> 
+                        </li>
+                        <li class="nav-dropdown__item"><a href="../filters.html" class="nav-dropdown__link">Пошук</a></li>
+                        <li class="nav-dropdown__item"><a href="../../index.html" class="nav-dropdown__link">Головна</a></li>
+                        <li class="nav-dropdown__item"><a href="../contact.html" class="nav-dropdown__link">Kонтакти</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </header>
+        <form method="GET">
+            <fieldset class="password">
+                <legend>Відновлення пароля</legend>
+                <p class="password--p">Введіть електрону пошту або номер телефона</p>
+                <div class="password__item">
+                    <label>Логін</label>
+                    <input name="login" required type="text" placeholder="Andrii@gmai.com / 38 050 000 00 01" minlength="3">
+                </div>
+            </fieldset>
+            <fieldset class="password__button">
+                <div class="password__item--button">
+                    <button class="btn" type="submit"><a class="password__link" href="reset.html">Відновити</a></button>
+                </div>
+                <div class="password__item--button">
+                    <button class="btn" type="reset">Відмінити</button>
+                </div>
+            </fieldset>    
+        </form>    
+    </div>
+</body>
+</html>

@@ -32,7 +32,34 @@
                 </li>
             </ul>
         </header>
-        
+        <form action="https://tests.fomenko.top/echo/index.php" method="GET">
+            <fieldset class="login">
+                <legend>Вхід</legend>
+                <div class="login__item">
+                    <label>Логін</label>
+                    <input name="login" required type="text" placeholder="Логін" minlength="3">
+                </div>
+                <div class="login__item">
+                    <label>Пароль</label>
+                    <input name="passw" type="password" placeholder="Пароль" minlength="3">
+                </div>
+                <div class="login__item--chceck">
+                    <label>Запам&#39ятати мене</label>
+                    <input class="item__chceck" name="авто-вхід" type="checkbox">
+                </div>
+                <div class="login__item--link">
+                    <a href="reset password/reset_pasword.html">Забули пароль</a>
+                </div>
+            </fieldset>
+            <fieldset class="login__button">
+                <div class="login__button--button">
+                    <button class="btn" type="submit" onclick="confirm('Зберегти дані?')">Увійти</button>
+                </div>
+                <div class="login__button--button">
+                    <button class="btn" type="reset">Відмінити</button>
+                </div>
+            </fieldset>    
+        </form>
     </div>
 </body>
 </html>

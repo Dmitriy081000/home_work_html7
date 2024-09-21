@@ -89,8 +89,7 @@ a:hover {
 }
 
 .hero{
-    margin: 130px 0 0; 
-   
+    margin: 130px 0 0;
 }
 
 /*INDEX*/
@@ -154,6 +153,7 @@ a:hover {
     padding: 10px 10%;
     margin: 20px auto;
     background-color: rgb(240, 248, 255, 0.151);
+    border: 1px solid white;
 }
 
 .group__item--p{
@@ -171,6 +171,7 @@ legend{
     margin: 1% auto;
     width: 30%;
     background-color: rgb(240, 248, 255, 0.151);
+    border: 1px solid white;
 }
 
 .regist__item{
@@ -186,9 +187,174 @@ legend{
     margin: 6px 0;
     width: 100%;
     padding: 10px 20px;
+    border: 1px solid white;
     background-color: rgb(240, 248, 255, 0.151);
 }
 
 input{
     width: 100%;
 }
+
+/*LOGIN*/
+
+.login{
+    margin: 1% auto;
+    width: 30%;
+    background-color: rgb(240, 248, 255, 0.151);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.login__item{
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.login__item--chceck{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    width: 100%;
+}
+
+.item__chceck{  
+    width: 3%;
+    margin: 0 2%;
+}
+
+.login__button{
+    margin: 1% auto;
+    width: 30%;
+}
+
+input{
+    width: 100%;
+}
+
+.login__item--link{
+    display: flex;
+    justify-content: right;
+    margin: 0 2% 2%;
+}
+
+/*PASSWORD and RESET*/
+
+.password{
+    margin: 1% auto;
+    width: 30%;
+    background-color: rgb(240, 248, 255, 0.151);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.password__item{
+    padding: 5px 10px;
+    width: 100%;
+}
+
+.password__item--chceck{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: left;
+    width: 100%;
+}
+
+.password__button{
+    margin: 1% auto;
+    width: 30%;
+}
+
+.password--p{
+    margin: 0 auto;
+}
+
+.password__link{
+    color: black;
+}
+
+.password__link:hover{
+    text-decoration: none;
+}
+
+/*FILTERS*/
+
+.form--filters{
+    margin: 130px 0 0; 
+}
+
+.search{
+    margin: 1% auto;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search__item{
+    padding: 5px 10px;
+    margin: 1% auto;
+    width: 21%;
+    background-color: rgba(240, 248, 255, 0.21);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+.search__item--comfort{
+    padding: 5px 10px;
+    margin: 1% auto;
+    width: 50%;
+    background-color: rgb(240, 248, 255, 0.21);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.search__item--row{
+    width: 100%;
+    padding: 5px 5px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+
+.search__item--checkbox{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1% auto;
+    width: 30%;
+    justify-content: space-between;
+}
+
+.search__lable{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.search__button{
+    margin: 1% auto;
+    width: 30%;
+}
+
+.search__item--checkbox>input{
+    margin: 0 0 0 3%;
+    width: 15px;
+}
+
+.search__item--checkbox>label{
+    display: flex;
+    flex-wrap: wrap;
+}
+    
+.search__item--state{
+    padding: 5px 10px;
+    margin: 1% auto;
+    width: 41%;
+    background-color: rgba(240, 248, 255, 0.227);
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+}
+    
