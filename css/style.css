@@ -270,7 +270,18 @@ input{
     margin: 0 auto;
 }
 
+.password__item--link{
+    width: 100%;
+    margin: 6px 0;
+    padding: 10px 20px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 248, 255, 0.151);
+}
+
 .password__link{
+    font-size: 15px;
     color: black;
 }
 
