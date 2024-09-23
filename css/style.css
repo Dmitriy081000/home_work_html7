@@ -408,3 +408,57 @@ input{
     /* height: 200px; */
     /* margin: 2% 1% 2% 2%; */
 }
+
+/*USED CAR*/
+
+.usecar{
+    width: 80%;
+    margin: 130px auto 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.usecar__info{
+    display: flex;
+    margin: 1% 1%;
+    padding: 10px 10px 10px;
+    width: 25%;
+    background-color: rgba(240, 248, 255, 0.338);
+    border: 1px solid white;
+    flex-direction: column;
+}
+
+.usecar__text{
+    display: flex;
+    margin: 1% auto;
+    padding: 10px 10px 10px;
+    width: 80%;
+    background-color: rgba(240, 248, 255, 0.427);
+    border: 1px solid white;
+    flex-direction: column;
+}
+
+.usecar__money{
+    display: flex;
+    margin: 1% auto;
+    padding: 10px 10px 10px;
+    width: 80%;
+    background-color: rgba(252, 227, 85, 0.338);
+    border: 1px solid white;
+    justify-content: center;
+}
+
+.usecar__image{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+
+}
+
+.usecar__image--audi{
+    width: 30%;
+    margin: 1%;
+}
