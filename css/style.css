@@ -12,13 +12,16 @@ html {
 body {
     line-height: 1;
     font-size: 1rem;
-    /* background-color: rgb(203, 231, 255); */
     background: url(../images/catalog/111.jpeg) no-repeat top/cover;
 }
 
 .wrapper{
     width: 100%;
     padding: 1% 8%;
+}
+
+.wrapper p{
+    line-height: 25px;
 }
 
 h1{
@@ -31,6 +34,10 @@ h1{
     width: 20%;
 }
 
+.header li{
+    margin: 4% 0 0 ;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -41,6 +48,14 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+h1>a{
+    color: rgb(0, 0, 0);
+}
+
+h1>a:hover{
+    text-decoration: none;
 }
 
 .nav {
@@ -156,7 +171,7 @@ a:hover {
     border: 1px solid white;
 }
 
-.group__item--p{
+.group__item--contact{
     font-weight: 700;
 }
 
@@ -178,7 +193,7 @@ legend{
     padding: 5px 10px;
 }
 
-.regist__button{
+.regist__block{
     margin: 1% auto;
     width: 30%;
 }
@@ -211,7 +226,7 @@ input{
     width: 100%;
 }
 
-.login__item--chceck{
+.login__item--check{
     display: flex;
     flex-direction: row-reverse;
     justify-content: left;
@@ -223,7 +238,7 @@ input{
     margin: 0 2%;
 }
 
-.login__button{
+.login__block{
     margin: 1% auto;
     width: 30%;
 }
@@ -261,7 +276,7 @@ input{
     width: 100%;
 }
 
-.password__button{
+.password__block{
     margin: 1% auto;
     width: 30%;
 }
